@@ -1,0 +1,192 @@
+
+
+@font-face {
+font-family: typewriter-thin;
+src: url('../fonts/typewriter-thin.otf') format('opentype');
+}
+
+body {
+	background-color: #dfdfdf;
+	font-family: 'Raleway', sans-serif;
+}
+
+#about {
+	height:1050px;
+	background-color: #e22854;
+	text-align: center;
+}
+
+#portfolio {
+	height:850px;
+	text-align: center;
+}
+
+#contact {
+	height:650px;
+	background-color: #e22854;
+}
+
+footer {
+	height:100px;
+	background-color: #e22854;
+}
+
+.container {
+	width: 1200px;
+}
+
+.box, .box2 {
+	width:400px;
+	float:left;
+	position: relative;
+	left:12%;
+	text-align:center;
+	
+
+}
+
+/*********************Header*************************/
+
+header {
+	height: 800px;
+	background-image: url(../img/journal.jpg);
+    background-size: cover;
+}
+
+nav {
+	float:right;
+	padding:10px 180px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a {
+    text-transform: uppercase; 
+    text-decoration:none;
+    font-size: 18px;
+    font-weight: bold;
+    padding:15px;
+    color:#e22854;
+}
+
+h1 {
+	clear:both;
+	position:absolute;
+  	top: 460px;
+  	left:550px;
+  	font-family: 'typewriter-thin';
+  	font-size: 22px;
+  	color:#4e4e4f;
+}
+
+header p {
+	position: absolute;
+	top:560px;
+	left:550px;
+	width:350px;
+	margin:auto;
+	font-family: 'typewriter-thin';
+  	font-size: 16px;
+  	color:#4e4e4f;
+}
+
+/****************************about me*****************************/
+
+#about h2 {
+	font-family: 'Libre Baskerville', serif;
+	color:#dfdfdf;
+	padding-top: 200px;
+	padding-bottom: 20px;
+	font-size: 32px;
+}
+
+#about img {
+	border:1px solid white;
+
+}
+
+#about h3 {
+	color:#dfdfdf;
+	font-weight: bold;
+	padding: 15px;
+}
+
+#about p {
+	color:#dfdfdf;
+	width:500px;
+	margin: auto;
+}
+
+/***************************************portfolio*****************************/
+
+#portfolio h2 {
+	font-size: 32px;
+	font-family: 'Libre Baskerville', serif;
+	text-align: center;
+	padding-top: 180px;
+	padding-bottom: 30px;
+
+}
+
+.box img {
+	width:300px;
+	height: 171px;
+}
+
+.box h5 {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.box p {
+	font-size: 18px;
+
+}
+
+/*************************contact******************************************************/
+
+#contact h2 {
+	font-size: 32px;
+	font-family: 'Libre Baskerville', serif;
+	text-align: center;
+	padding-top: 150px;
+	padding-bottom: 30px;
+	color:#dfdfdf;
+}
+
+#contact h6 {
+	font-size: 24px;
+	font-weight: bold;
+	color:#dfdfdf;
+}
+
+#contact a {
+	font-size: 20px;
+	color:#dfdfdf;
+	text-decoration: none;
+}
+
+#contact ul {
+    list-style: none;
+}
+#contact ul li {
+     display: inline-block;
+}
+
+.fa-linkedin, .fa-github {
+	padding:0 10px;
+	font-size: 30px;
+}
+
+.copyright p {
+	clear:both;
+	padding-top: 155px;
+	text-align: center;
+	color:#ffffff;
+}
+
+#contact p {
+	color: #ffffff;
+}
