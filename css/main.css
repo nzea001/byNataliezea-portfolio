@@ -81,6 +81,10 @@ h1 {
   	color:#4e4e4f;
 }
 
+h1 span {
+	font-size:28px;
+}
+
 header p {
 	position: absolute;
 	top:560px;
